@@ -1,5 +1,4 @@
-// Caroline Jenuario
-// Alexandre dos Santos B Cabral
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
