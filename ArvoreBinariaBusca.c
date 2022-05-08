@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -91,15 +90,8 @@ int buscarArvoreBinaria(No *raiz, int procurarNumero)
             return 1; 
       }
        else
-        {
-            if (procurarNumero)
-                return buscarArvoreBinaria(raiz->esquerda, procurarNumero);
-            else
-                return buscarArvoreBinaria(raiz->direita, procurarNumero);
-        }  
   return 0;
 }
-
 
 int main()
 {
