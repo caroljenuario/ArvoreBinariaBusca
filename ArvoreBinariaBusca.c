@@ -145,7 +145,7 @@ int main()
                                                           ((CLOCKS_PER_SEC / 1000)) -
                                                       media,
                                                   2);
-             //   desvioPadrao = sqrt(desvioPadrao / 99);
+                desvioPadrao = sqrt(desvioPadrao / 99);
             }
 
             printf("\nTempo de execucao total: %lf \n",
@@ -184,7 +184,7 @@ int main()
                                                           ((CLOCKS_PER_SEC / 1000)) -
                                                       media,
                                                   2);
-              //  desvioPadrao = sqrt(desvioPadrao / 99);
+                desvioPadrao = sqrt(desvioPadrao / 99);
             }
             printf("\nTempo de execucao total: %lf \n",
                    ((double)tempo) / ((CLOCKS_PER_SEC / 1000)));
